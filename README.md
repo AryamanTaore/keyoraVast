@@ -23,10 +23,11 @@ Get-Content $env:USERPROFILE/.ssh/id_rsa.pub | Set-Clipboard
 Send the generated public key back to the administrator.
 
 ---
-## 2️⃣ 🔧 Installing `vastai`
+## 2️⃣ 🔧 Installing `vastai` & `azure-storage-blob`
 To install Vast.ai CLI:
 ```bash
 pip install vastai
+pip install azure-storage-blob
 ```
 
 ---
